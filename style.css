@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+
+section > p {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  padding: 10px
+}
+
+section > div {
+  float: left;
+  margin:auto;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
